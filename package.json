@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_web",
+  "version": "1.0.0",
+  "description": "Static website for learning scss",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Mantas Kazlauskas",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
