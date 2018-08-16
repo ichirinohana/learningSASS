@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Static website for learning scss",
   "main": "index.js",
+  "homepages": "https://ichirinohana.github.io/learningSASS",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Mantas Kazlauskas",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3"
   }
 }
