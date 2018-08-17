@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Static website for learning scss",
   "main": "index.js",
-  "homepages": "https://ichirinohana.github.io/learningSASS",
+  "homepage": "https://ichirinohana.github.io/learningSASS",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
